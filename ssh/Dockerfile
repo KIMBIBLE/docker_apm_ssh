@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER bbkim <bbkim@gmail.com>
+MAINTAINER bbkim <bbkimdev@gmail.com>
 
 ### server setting ###
 RUN sed -i 's/archive.ubuntu.com/ftp.daumkakao.com/g' /etc/apt/sources.list
